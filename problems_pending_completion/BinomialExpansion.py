@@ -1,5 +1,14 @@
 def expand(expr):
+	"""
+	note:
+	-if the coefficient of a term is zero, the term should not be included
+	-if the coefficient of a term is one, the coefficient should not be included
+	-if the power of the term is 0, only the coefficient should be included
+	-if the power of the term is 1, the caret and the power should be excluded 
+	"""
 	pass
+
+
 
 print(expand("(x+1)^2"))
 print(expand("(x+1)^2"))      # returns "x^2+2x+1"
